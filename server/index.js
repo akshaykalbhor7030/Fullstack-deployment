@@ -13,6 +13,7 @@ app.use(
       "http://localhost:5173",
       "http://localhost:5174",
       "http://localhost:3000",
+      "http://187.127.133.1:5173"
     ],
     credentials: true, // this tell the backend that allow the cookies also
   }),
