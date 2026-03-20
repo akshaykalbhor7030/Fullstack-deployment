@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     const backendCall = async () => {
-      const res = await axios.get("http://localhost:4000/api/message");
+      const res = await axios.get("http://187.127.133.1:4000/api/message");
       console.log("response is:", res);
       setMessage(res.data.message);
     };
